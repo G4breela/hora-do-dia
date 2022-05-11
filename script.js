@@ -22,5 +22,8 @@ function carregar() {
     if (minuto < 10) {
         msg.innerHTML = `Horário: ${hora}:0${minuto}:${segundo}`
     }
+    if (segundo < 10){
+        msg.innerHTML = `Horário: ${hora}:${minuto}:0${segundo}`
+    }
 }
 
