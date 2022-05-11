@@ -20,7 +20,7 @@ function carregar() {
         document.body.style.background = '#141823'
     }
     if (minuto < 10) {
-        msg.innerHTML = `Horário: ${hora}:0${minuto}:0${segundo}`
+        msg.innerHTML = `Horário: ${hora}:0${minuto}:${segundo}`
     }
 }
 
