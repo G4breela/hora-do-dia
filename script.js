@@ -10,7 +10,7 @@ function carregar() {
     if (hora >= 0 && hora < 12){
         foto.src = '/img/manhã.png'
         document.body.style.background = '#9fb489'
-        msg.innerHTML = `Horário: ${hora}:0${minuto}`
+        
     }else if (hora > 12 && hora < 18) {
         foto.src = '/img/tarde.png'
         document.body.style.background = '#c96412'
@@ -19,10 +19,13 @@ function carregar() {
        foto.src = '/img/noite.png'
         document.body.style.background = '#141823'
     }
-    if (minuto < 10) {
+    if (minuto < 10){
         msg.innerHTML = `Horário: ${hora}:0${minuto}:${segundo}`
     }
-    if (segundo < 10){
+    if(minuto < 10 && segundo < 10){
+        msg.innerHTML = `Horário: ${hora}:0${minuto}:0${segundo}`
+    }
+    if(minuto > 10 && segundo < 10){
         msg.innerHTML = `Horário: ${hora}:${minuto}:0${segundo}`
     }
 }
