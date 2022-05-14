@@ -19,14 +19,6 @@ function carregar() {
        foto.src = '/img/noite.png'
         document.body.style.background = '#141823'
     }
-    if (minuto < 10){
-        msg.innerHTML = `Horário: ${hora}:0${minuto}:${segundo}`
-    }
-    if(minuto < 10 && segundo < 10){
-        msg.innerHTML = `Horário: ${hora}:0${minuto}:0${segundo}`
-    }
-    if(minuto > 10 && segundo < 10){
-        msg.innerHTML = `Horário: ${hora}:${minuto}:0${segundo}`
-    }
+    
 }
 
