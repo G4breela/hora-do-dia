@@ -15,7 +15,7 @@ Exercício do curso de JavaScript do Curso em Vídeo
 
 <h2> Projeto Finalizado ✅ </h2>
 
-<p> Link do Projeto:  </p>
+<p> Link do Projeto: https://g4breela.github.io/hora-do-dia/ </p>
 
 
 
