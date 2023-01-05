@@ -1,4 +1,4 @@
-<h1> # :timer_clock: Hora do Dia :sunrise: </h1>
+<h1> :timer_clock: Hora do Dia :sunrise: </h1>
 Exercício do curso de JavaScript do Curso em Vídeo 
 
 <h2> Exercício Proposto: 🕵️ </h2>
