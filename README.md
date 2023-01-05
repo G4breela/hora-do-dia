@@ -3,7 +3,7 @@ Exercício do curso de JavaScript do Curso em Vídeo
 
 <h2> Exercício Proposto: 🕵️ </h2>
   <p>
-    Um site que retorne uma imagem de acordo o horário atual.
+    Um site que retorne uma imagem de acordo o horário atual do seu dispositivo.
   </p>
 
 <h2> Tecnologias Utilizadas: 👩‍💻 </h2>
